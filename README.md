@@ -28,8 +28,13 @@ The project is organized into the following main directories:
 
 Driver-Drowsiness-Detection-By-Using-Webcam/
 ├── report/                 # Contains the complete project report
+
 ├── src/                    # Contains the main source code of the project
+
 ├── video/                  # Contains demo video files or data
+
 ├── images/                 # Contains images for the project or report
+
 ├── LICENSE                 # Project license (GPL-3.0)
+
 └── README.md               # Project introduction file
