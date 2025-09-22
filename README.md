@@ -42,27 +42,6 @@ Driver-Drowsiness-Detection-By-Using-Webcam/
 
 ---
 
-## Installation & Usage Guide
-
-1.  **Clone repository:**
-    ```bash
-    git clone [https://github.com/lehominhkhoa1006/Driver-Drowsiness-Detection-By-Using-Webcam.git](https://github.com/lehominhkhoa1006/Driver-Drowsiness-Detection-By-Using-Webcam.git)
-    ```
-
-2.  **Install necessary libraries:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    *(Note: The `requirements.txt` file is not in the image, you will need to create this file and list necessary libraries like OpenCV, Dlib, etc.)*
-
-3.  **Run the program:**
-    ```bash
-    python main.py
-    ```
-    *(Note: The main file name may vary, depending on the source code)*
-
----
-
 ## Project Report
 
 The detailed project report is located in the `report/` directory. The report includes the following chapters:
