@@ -39,3 +39,59 @@ Driver-Drowsiness-Detection-By-Using-Webcam/
 ├── LICENSE                 # Project license (GPL-3.0)
 
 └── README.md               # Project introduction file
+
+---
+
+## Installation & Usage Guide
+
+1.  **Clone repository:**
+    ```bash
+    git clone [https://github.com/lehominhkhoa1006/Driver-Drowsiness-Detection-By-Using-Webcam.git](https://github.com/lehominhkhoa1006/Driver-Drowsiness-Detection-By-Using-Webcam.git)
+    ```
+
+2.  **Install necessary libraries:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+    *(Note: The `requirements.txt` file is not in the image, you will need to create this file and list necessary libraries like OpenCV, Dlib, etc.)*
+
+3.  **Run the program:**
+    ```bash
+    python main.py
+    ```
+    *(Note: The main file name may vary, depending on the source code)*
+
+---
+
+## Project Report
+
+The detailed project report is located in the `report/` directory. The report includes the following chapters:
+
+1.  **CHAPTER 1: INTRODUCTION**
+    - Reason for choosing the topic
+    - Objectives and scope of the project
+
+2.  **CHAPTER 2: LITERATURE REVIEW**
+    - Theoretical foundations
+    - Global state of research
+    - Challenges and software applications
+
+3.  **CHAPTER 3: SYSTEM BUILDING PROCESS**
+    - Algorithms
+    - System design
+    - Main components
+    - Programming process
+
+4.  **CHAPTER 4: TESTING AND EVALUATION**
+    - System testing
+    - System evaluation
+
+5.  **CHAPTER 5: CONCLUSION**
+    - Summary of accomplishments
+    - Future development directions
+
+---
+
+## License
+
+This project is released under the **GPL-3.0** License. See the `LICENSE` file for more details.
