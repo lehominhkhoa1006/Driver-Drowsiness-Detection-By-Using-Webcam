@@ -115,3 +115,60 @@ When the eyes remain closed for a sustained period, the consecutive closed-eye c
 </p>
 
 The test demonstrates the intended detection and warning behavior of the prototype, from real-time eye monitoring to alert activation.
+
+## Project Demonstration
+
+A short demonstration video is included to show the system operating through a webcam. The video shows the detected eye contours during normal observation and the warning response when prolonged eye closure is detected.
+
+<p align="center">
+  <img src="media/drowsiness_detection_preview.gif" alt="Driver Drowsiness Detection Demonstration" width="400"><br>
+  <em>Figure 4. Real-time webcam demonstration of eye monitoring and drowsiness warning activation.</em>
+</p>
+
+[Watch the full demonstration video](./media/drowsiness_detection_demo.mp4)
+
+## Repository Structure
+
+```text
+Driver-Drowsiness-Detection-by-Using-Webcam/
+├── src/
+│   └── main.py
+├── images/
+│   ├── 01_normal_eye_state.png
+│   └── 02_drowsy_eye_state.png
+├── media/
+│   ├── drowsiness_detection_demo.mp4
+│   └── drowsiness_detection_preview.gif
+├── report/
+│   ├── DDDBUW_Document.pdf
+│   └── DDDBUW_Presentation.pdf
+└── README.md
+```
+
+---
+
+### 4. Documentation and Team
+
+## Documentation
+
+The complete project documentation and presentation are available in the `report` directory.
+
+- [Project Documentation](./report/DDDBUW_Document.pdf)
+- [Project Presentation](./report/DDDBUW_Presentation.pdf)
+
+## Team
+
+This project was developed as a group project for the Special Project (EL) course at Ho Chi Minh City University of Technology and Education (HCMUTE) during the 2023–2024 academic year.
+
+**Team Leader**
+
+- Le Hoang Tien
+
+**Team Members**
+
+- Le Ho Minh Khoa
+- Dang Xuan Quang
+
+**Guiding Lecturer**
+
+- Assoc. Prof. Dr. Do Van Dung
