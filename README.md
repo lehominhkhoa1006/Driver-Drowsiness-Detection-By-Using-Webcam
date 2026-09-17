@@ -165,3 +165,21 @@ This project was completed as a group project for the Special Project (EL) cours
 **Guiding Lecturer**
 
 - Assoc. Prof. Dr. Do Van Dung
+
+## Limitations and Future Improvements
+
+The current prototype focuses on webcam-based eye-state monitoring and prolonged eye-closure detection. Its operation can be affected by factors such as camera position, lighting conditions, facial visibility, and individual differences in eye appearance.
+
+Potential improvements include:
+
+- Improving robustness under different lighting conditions and camera positions.
+- Evaluating the system with a larger range of users and driving conditions.
+- Refining the EAR threshold and consecutive-frame criteria for different users.
+- Integrating additional driver-state indicators beyond eye closure.
+- Exploring more advanced machine learning methods for driver monitoring.
+- Integrating the system with in-vehicle warning or driver-assistance systems.
+
+## License
+
+This project was developed as an undergraduate group project at Ho Chi Minh City University of Technology and Education (HCMUTE).
+The source code and project materials in this repository are provided for educational and portfolio purposes.
