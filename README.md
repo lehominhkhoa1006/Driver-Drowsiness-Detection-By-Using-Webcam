@@ -44,7 +44,6 @@ flowchart LR
     K --> L[Display Warning]
 
 ```
-markdown id="8pxq2m"
 ## Hardware and Software
 
 ### Hardware
