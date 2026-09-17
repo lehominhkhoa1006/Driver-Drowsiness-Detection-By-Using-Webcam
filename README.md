@@ -43,8 +43,6 @@ flowchart LR
     J -->|Yes| K[Activate Buzzer]
     K --> L[Display Warning]
 
-Pipeline này phù hợp trực tiếp với code: webcam → face detection → landmarks → eye landmarks → average EAR → consecutive-frame threshold → buzzer/warning. :contentReference[oaicite:1]{index=1}
-
 ```
 markdown id="8pxq2m"
 ## Hardware and Software
