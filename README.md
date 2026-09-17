@@ -92,4 +92,26 @@ If the eyes remain below the threshold for at least `25` consecutive frames, the
 
 When the warning condition is reached, the GPIO-connected buzzer is activated and a warning message is displayed on the camera frame. The current EAR value is also displayed during normal monitoring.
 
+## Testing and Results
 
+The system was tested under two eye-state conditions: normal eye opening and prolonged eye closure.
+
+### Normal Eye State
+
+Under normal conditions, the system detects the facial and eye landmarks and continuously displays the average Eye Aspect Ratio on the camera frame.
+
+<p align="center">
+  <img src="images/01_normal_eye_state.png" alt="Normal Eye State" width="400"><br>
+  <em>Figure 2. Normal eye state with facial eye contours and average Eye Aspect Ratio displayed.</em>
+</p>
+
+### Drowsy Eye State
+
+When the eyes remain closed for a sustained period, the consecutive closed-eye counter reaches the predefined threshold. The system then activates the buzzer and displays a warning message on the camera frame.
+
+<p align="center">
+  <img src="images/02_drowsy_eye_state.png" alt="Drowsy Eye State" width="400"><br>
+  <em>Figure 3. Prolonged eye closure triggering the visual warning and audible drowsiness alert.</em>
+</p>
+
+The test demonstrates the intended detection and warning behavior of the prototype, from real-time eye monitoring to alert activation.
