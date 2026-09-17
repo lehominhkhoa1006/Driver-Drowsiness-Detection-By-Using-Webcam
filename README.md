@@ -1,12 +1,5 @@
 # Driver Drowsiness Detection by Using Webcam
 
-This project presents a webcam-based driver drowsiness detection system developed as a group project for the Special Project (EL) course at Ho Chi Minh City University of Technology and Education (HCMUTE) during the 2023–2024 academic year. The system uses computer vision and facial landmark analysis to monitor the driver's eye state in real time and provide an alert when prolonged eye closure is detected.
-
-<p align="center">
-  <img src="media/drowsiness_detection_preview.gif" alt="Driver Drowsiness Detection Demo" width="400"><br>
-  <em>Figure 1. Real-time webcam-based eye monitoring and drowsiness warning during system operation.</em>
-</p>
-
 ## Overview
 
 The system monitors the driver's eyes in real time using a webcam, facial landmarks, and the Eye Aspect Ratio (EAR). The detected eye landmarks are used to calculate the EAR for both eyes, while a predefined threshold and consecutive-frame counter are used to identify prolonged eye closure.
@@ -102,7 +95,7 @@ Under normal conditions, the system detects the facial and eye landmarks and con
 
 <p align="center">
   <img src="images/01_normal_eye_state.png" alt="Normal Eye State" width="400"><br>
-  <em>Figure 2. Normal eye state with facial eye contours and average Eye Aspect Ratio displayed.</em>
+  <em>Figure 1. Normal eye state with facial eye contours and average Eye Aspect Ratio displayed.</em>
 </p>
 
 ### Drowsy Eye State
@@ -111,7 +104,7 @@ When the eyes remain closed for a sustained period, the consecutive closed-eye c
 
 <p align="center">
   <img src="images/02_drowsy_eye_state.png" alt="Drowsy Eye State" width="400"><br>
-  <em>Figure 3. Prolonged eye closure triggering the visual warning and audible drowsiness alert.</em>
+  <em>Figure 2. Prolonged eye closure triggering the visual warning and audible drowsiness alert.</em>
 </p>
 
 The test demonstrates the intended detection and warning behavior of the prototype, from real-time eye monitoring to alert activation.
@@ -122,7 +115,7 @@ A short demonstration video is included to show the system operating through a w
 
 <p align="center">
   <img src="media/drowsiness_detection_preview.gif" alt="Driver Drowsiness Detection Demonstration" width="400"><br>
-  <em>Figure 4. Real-time webcam demonstration of eye monitoring and drowsiness warning activation.</em>
+  <em>Figure 3. Real-time webcam demonstration of eye monitoring and drowsiness warning activation.</em>
 </p>
 
 [Watch the full demonstration video](./media/drowsiness_detection_demo.mp4)
@@ -158,7 +151,7 @@ The complete project documentation and presentation are available in the `report
 
 ## Team
 
-This project was developed as a group project for the Special Project (EL) course at Ho Chi Minh City University of Technology and Education (HCMUTE) during the 2023–2024 academic year.
+This project was completed as a group project for the Special Project (EL) course, Subject ID `232SPAE310733E`, during the second semester of the 2023–2024 academic year at Ho Chi Minh City University of Technology and Education (HCMUTE).
 
 **Team Leader**
 
